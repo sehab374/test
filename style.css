@@ -1,0 +1,408 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-size: 18px;
+    color: #686868;;
+}
+
+.shopping img
+{
+    width: 100%;
+    background-color: white;
+
+}
+.shopping
+{
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    right: 0px;
+    top: 400px;
+    z-index: 9999999999999;
+    background-color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+.nav img
+{
+    float: left;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    position: fixed;
+   
+}
+.nav
+{
+    width: 100%;
+    overflow: auto;
+   background-color: black;
+   position: fixed;
+   z-index: 999999999;
+}
+.part
+{
+    float: left;
+    padding: 30px;
+}
+.parts
+{
+    position: fixed;
+    right: 50px;
+}
+
+
+.first
+{
+   
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 850px;
+    color: white;
+    overflow: auto;
+    position: relative;
+}
+.content
+{
+    text-align: center;
+    margin-top: 160px;
+}
+.content p
+{
+    font-size: 24px;
+}
+.content h1
+{
+    font-size: 76px;
+    margin: 20px;
+}
+.content .btn
+{
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: white;
+}
+.content .btn1
+{
+    background-color: #8e7754;
+    border: 1px solid #8e7754;
+    margin-right: 7px;
+}
+.content .btn2
+{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 7px;
+
+}
+
+
+
+.who
+{
+  
+    overflow: auto;
+    width: 90%;
+    margin:50px auto;
+    background-color: white;
+}
+.who-img
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+
+}
+.who-img img
+{
+    width: 100%;
+
+}
+.who-des
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.who-des h3
+{ 
+     margin: 20px;
+    font-size: 32px;
+}
+.who-des p
+{ 
+     margin: 10px;
+     font-size: 20px;
+}
+.who ul
+{
+    list-style-type:none;
+}
+
+.who ul li img
+{
+    width: 35px;
+    height: 35px;
+
+}
+
+
+
+
+.location
+{
+    background-color: white;
+    overflow: auto;
+    width: 90%;
+    margin: 50px auto;
+
+}
+.location-des
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.location-des h3
+{ 
+     margin: 20px;
+    font-size: 32px;
+}
+.location-des p
+{ 
+     margin: 10px;
+     font-size: 20px;
+}
+
+.location-img
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.location-img img
+{
+    width: 100%;
+
+}
+
+
+
+
+.products
+{
+    
+    overflow: auto;
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+    font-family: 'Alegreya SC', ;
+
+}
+.product
+{
+    
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.product img
+{
+    width: 100%;
+
+}
+.layer
+{
+    background-color:white;
+}
+.products h3
+{
+    margin: 20px;
+    font-size: 32px;
+
+}
+.layer h4
+{
+    margin: 20px;
+    font-size: 22px;
+}
+.products p
+{
+    margin: 20px;
+    font-size: 17px;
+}
+
+
+
+.contact
+{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.contact-des
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.contact-map
+{
+    width: 50%;
+    float: left;
+}
+.contact-des ul
+{
+    list-style-type: none;
+}
+.contact-des ul li img
+{
+    width: 35px;
+    height: 35px;
+}
+.contact-des li
+{
+    margin: 10px;
+}
+
+.contact-des h3
+{ 
+     margin: 20px;
+    font-size: 32px;
+}
+.contact-des p
+{ 
+     margin: 10px;
+     font-size: 20px;
+}
+
+
+
+.aboutus
+{
+    background-color: #403d38;
+    color: #969696;
+    background-image: url(images/contact-details-map.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: auto;
+    padding: 60px;
+}
+.aboutus h5
+{
+    margin: 10px;
+     font-size: 20px;
+}
+.aboutus .col1
+{
+    width: 25%;
+    float: left;
+}
+.aboutus .col2
+{
+    width: 25%;
+    float: left;
+}
+.aboutus .col3
+{
+    width: 25%;
+    float: left;
+}
+.aboutus .col4
+{
+    width: 25%;
+    float: left;
+}
+
+.final
+{
+    background-color: #2e2a2a;
+    padding: 70px;
+    text-align: center;
+}
+.final img
+{
+    padding-bottom: 20px;
+}
+
+
+
+
+@media (min-width: 0px) and (max-width:599px)
+{
+    .product
+    {
+        width: 100%;
+    }
+    .who-img
+    {
+        width: 100%;
+    }
+    .who-des
+    {
+        width: 100%;
+    }
+    .location-des
+    {
+        width: 100%;
+    }
+    .location-img
+    {
+        width: 100%;
+    }
+    .contact-des
+    {
+        width: 100%;
+    }
+    .contact-map
+    {
+        width: 100%;
+    }
+}
+@media (min-width:600px) and (max-width:900px)
+{
+    .product
+    {
+        width: 50%;
+    }
+    .who-img
+    {
+        width: 100%;
+    }
+    .who-des
+    {
+        width: 100%;
+    }
+    .location-des
+    {
+        width: 100%;
+    }
+    .location-img
+    {
+        width: 100%;
+    }
+    .contact-des
+    {
+        width: 100%;
+    }
+    .contact-map
+    {
+        width: 100%;
+    }
+}
